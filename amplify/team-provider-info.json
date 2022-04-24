@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-plex-dev-222016-authRole",
+      "UnauthRoleArn": "arn:aws:iam::939044553758:role/amplify-plex-dev-222016-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::939044553758:role/amplify-plex-dev-222016-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-plex-dev-222016-deployment",
+      "UnauthRoleName": "amplify-plex-dev-222016-unauthRole",
+      "StackName": "amplify-plex-dev-222016",
+      "StackId": "arn:aws:cloudformation:eu-central-1:939044553758:stack/amplify-plex-dev-222016/7d61e470-aed4-11ec-ab65-0a45b8bb8f26",
+      "AmplifyAppId": "dor2c2pn4p1ij"
+    },
+    "categories": {
+      "auth": {
+        "plex2b3057aa": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-plex-dev-222016-authRole",
+      "UnauthRoleArn": "arn:aws:iam::939044553758:role/amplify-plex-dev-222016-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::939044553758:role/amplify-plex-dev-222016-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-plex-dev-222016-deployment",
+      "UnauthRoleName": "amplify-plex-dev-222016-unauthRole",
+      "StackName": "amplify-plex-dev-222016",
+      "StackId": "arn:aws:cloudformation:eu-central-1:939044553758:stack/amplify-plex-dev-222016/7d61e470-aed4-11ec-ab65-0a45b8bb8f26",
+      "AmplifyAppId": "dor2c2pn4p1ij"
+    }
+  },
+  "auth": {
+    "plex2b3057aa": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-plex-dev-222016-deployment/amplify-cfn-templates/auth/plex2b3057aa-cloudformation-template.json",
+        "logicalId": "authplex2b3057aa"
+      },
+      "lastPushTimeStamp": "2022-03-28T20:28:01.272Z",
+      "output": {
+        "UserPoolId": "eu-central-1_ytboDFipN",
+        "AppClientIDWeb": "p066rdurcppg20lkdkh5g1bvu",
+        "AppClientID": "4goiveuusi0forlqm72netva85",
+        "IdentityPoolId": "eu-central-1:481c0076-c808-4e88-9f88-796dd76e935f",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-central-1:939044553758:userpool/eu-central-1_ytboDFipN",
+        "IdentityPoolName": "plex2b3057aa_identitypool_2b3057aa__dev",
+        "UserPoolName": "plex2b3057aa_userpool_2b3057aa"
+      },
+      "lastPushDirHash": "2A7B9lu4f69rNC9ZkaKdjSFjli8="
+    }
+  }
+}
